@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kopi Mbok Mariyem</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfaf6;
+      color: #2c1c0f;
+    }
+    header {
+      background-color: #4e342e;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') no-repeat center/cover;
+      color: white;
+      padding: 6rem 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+    }
+    .cta {
+      display: block;
+      margin: 2rem auto;
+      width: max-content;
+      padding: 1rem 2rem;
+      background-color: #a1887f;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .product {
+      background-color: white;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #4e342e;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kopi Mbok Mariyem</h1>
+    <p>Disangrai dari 100% kopi murni, tanpa tambahan apapun. Rasa klasik yang membawamu pulang.</p>
+  </header>
+
+  <section class="hero">
+    <h1>Rasa Kopi Asli, Seperti Buatan Simbok</h1>
+    <p>Dari kebun langsung ke cangkirmu. Rasakan seduhan yang jujur.</p>
+    <a href="#produk" class="cta">Lihat Produk</a>
+  </section>
+
+  <section id="produk">
+    <h2>Varian Produk</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1559767940-080b8f9b02fb" alt="Kopi Bubuk 250g" />
+        <h3>Kopi Bubuk 250g</h3>
+        <p>Pas untuk teman pagi atau kerja lembur. Aroma khas yang bikin tenang.</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1534430480871-a19c7cb7e283" alt="Paket Seduh Pagi" />
+        <h3>Paket Seduh Pagi</h3>
+        <p>4 sachet kopi celup tradisional, cocok untuk oleh-oleh atau langganan mingguan.</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1598515213619-91b5d27e36c7" alt="Kopi Premium 500g" />
+        <h3>Kopi Premium 500g</h3>
+        <p>Untuk kamu yang ingin stok lebih banyak dengan rasa yang tetap konsisten dan nikmat.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kopi Mbok Mariyem | Rasa Pulang dari Tanah Sendiri</p>
+  </footer>
+</body>
+</html>
